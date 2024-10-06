@@ -1,0 +1,3 @@
+cc,bb,bb,bb,bb,0
+100,Albert,Landa,Rosario,Medicina,18
+cc,cc,cc,cc,cc,18
