@@ -1,0 +1,17 @@
+	-- Seleccionar la base de datos
+	USE RegistroPersonal;
+	GO
+
+	-- Crear la tabla Personal
+	CREATE TABLE Personal (
+		codigo VARCHAR(10) PRIMARY KEY,
+		nombre VARCHAR(50),
+		apellido VARCHAR(50),
+		fecha_nac DATE,
+		fecha_con DATE
+	);
+	GO
+
+	-- Verificar que la tabla Personal ha sido creada correctamente
+	SELECT * FROM Personal;
+	GO
